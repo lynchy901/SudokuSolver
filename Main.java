@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Integer is a wrapper class which makes a primitive an object. Allows us to do things like .contains
-        // since you can't do that on an array of primitives
+        // since you can't do that on an array of primitives. Can treat them as primitives otherwise
         Integer[][] board = {
                 {1,1,1,1,1,1,7,8,9},
                 {1,2,3,4,5,6,7,8,9},
